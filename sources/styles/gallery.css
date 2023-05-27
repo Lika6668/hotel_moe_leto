@@ -1,0 +1,312 @@
+* {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ html,
+ body {
+	height: 100%;
+	width: 100%;
+	background: #e9ece0;
+ }
+ 
+ header {
+	width: 100%;
+	height: 15%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: white;
+ }
+
+ 
+ .headerInner {
+	width: 95%;
+	height: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+ }
+ 
+ .logo {
+	width: 5%;
+	height: 81%;
+ }
+ 
+ .logo > img {
+	width: 100%;
+	height: 100%;
+ }
+ 
+ nav {
+	width: 76%;
+	height: 100%;
+ }
+ 
+ .headerMenu {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans Condensed Light", sans-serif;
+	font-weight: 300;
+ }
+ 
+ .headerMenu > li > a {
+	 text-decoration: none;
+	 color: black;
+	 font-size: 22px;
+ }
+ 
+ .bookBtn {
+	position: relative;
+	right: 2.5%;
+ }
+
+ a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+ } 
+ 
+ /* Галерея */
+ * {
+	box-sizing: border-box;
+ } 
+.section-container {
+	width: 100%;
+	height: 145%;
+	padding: 5em 0;
+	background: #e9ece0;
+	background-size: contain;
+	padding-bottom: 0;
+}
+ .container {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+ 	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: repeat (3);
+ }
+
+ .container > .column {
+	padding: 0 8px;
+ }
+ 
+ .container:after {
+	content: "";
+	display: table;
+	clear: both;
+ }
+ 
+ .column {
+	float: left;
+	width: 17rem;
+ }
+ 
+ /* Модальный (фон) */
+ .containerModal {
+	width: 100%;
+	height: 60%;
+ }
+
+ .modal1 {
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+ }
+ 
+ /* Модальное содержание */
+ .modal-content1 {
+	position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  height: 88%;
+  max-width: 1200px;
+ }
+ 
+ /* Кнопка закрытия */
+ .close {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+ }
+ 
+ .mySlides {
+	display: none;
+	height: 505px;
+ }
+
+.mySlides > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+ } 
+ 
+ .column-main {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+ }
+ .column-main > .column {
+	width: 19rem;
+ }
+
+ .cursor {
+	cursor: pointer;
+ }
+ 
+ /* Кнопки вперед и назад */
+ .prev,
+ .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+ }
+ 
+ /* Расположите кнопку "вперед" справа */
+ .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+ }
+ 
+ /* При наведении курсора добавьте черный цвет фона с небольшим количеством прозрачного */
+ .prev:hover,
+ .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+ }
+ 
+ img {
+	margin-bottom: -4px;
+ }
+ 
+ .caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+ }
+ 
+ .demo {
+	opacity: 0.6;
+ }
+ 
+ .active,
+ .demo:hover {
+	opacity: 1;
+ }
+ 
+ img.hover-shadow {
+	transition: 0.3s;
+ }
+ 
+ .hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ /* Footer */
+ .footer{
+	width: 80vw;
+	height: 45%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	padding: 0 4em;
+	margin: 4em;
+	margin-left: 8em;
+}
+
+ .section-footer {
+	width: 100%;
+	display: flex;
+}
+
+.footerInner{
+	width: 75%;
+	height: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0 auto;
+	flex-direction: column;
+}
+
+.footerList{
+	width: 60%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.footerList > li > a{
+	color: #4e5652;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.contacts {
+	font-size: 18px;
+	font-weight: bold;
+} 
+
+.footerLogo{
+	width: 20%;
+}
+
+.footerLogo > a > img {
+	width: 100%;
+	height: 100%;
+ }
+
+.footerEmail{
+	color: #bcbeb8;
+}
+
+.footerInnerBotton {
+	width: 80%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	color: #5b6460;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	padding-top: 3.1em
+ }

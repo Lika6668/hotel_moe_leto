@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="sources/styles/gallery.css" />
+	<title>Gallery</title>
+	<!-- Bootstrap CSS -->
+	<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+	crossorigin="anonymous"
+ />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="border">
+	<div class="headerInner">
+	  <div class="logo">
+		<img src="sources/img/logo.png" alt="logo" />
+	  </div>
+	  <nav>
+		 <ul class="headerMenu">
+			<li><a href="index.html">Главная</a></li>
+		 </ul>
+	  </nav>
+	  <div class="bookBtn">
+		<a href="form.html"><button type="button" class="btn btn-secondary btn-lg"> Забронировать </button></a>
+	  </div>
+	</div>
+	</header>
+		<div class="section-container">
+			<div class="container">
+			  <div class="column">
+				 <img src="sources/img/img4.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor img-thumbnail">
+			  </div>
+			  <div class="column">
+				 <img src="sources/img/img5.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor img-thumbnail">
+			  </div>
+			  <div class="column">
+				 <img src="sources/img/img6.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor img-thumbnail">
+			  </div>
+			  <div class="column">
+				 <img src="sources/img/img7.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor img-thumbnail">
+			  </div>
+		
+			  <div class="column">
+				<img src="sources/img/img8.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img9.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img10.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img11.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+		
+			 <div class="column">
+				<img src="sources/img/img12.jpeg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img13.jpeg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img14.jpeg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img15.jpeg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+		
+			 <div class="column">
+				<img src="sources/img/img16.jpeg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img17.jpeg" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img18.jpeg" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			 <div class="column">
+				<img src="sources/img/img19.jpeg" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor img-thumbnail">
+			 </div>
+			</div>
+		<div class="containerModal">
+			<div id="myModal" class="modal1" style="display: block;">
+			  <span class="close cursor" onclick="closeModal()">&times;</span>
+			  <div class="modal-content1">
+				 <div class="mySlides">
+					<img src="sources/img/img4.jpg">
+				 </div>
+			
+				 <div class="mySlides">
+					<img src="sources/img/img5.jpg">
+				 </div>
+			
+				 <div class="mySlides">
+					<img src="sources/img/img6.jpg">
+				 </div>
+				 
+				 <div class="mySlides">
+					<img src="sources/img/img7.jpg">
+				 </div>
+		
+				 <div class="mySlides">
+					<img src="sources/img/img8.jpg">
+				 </div>
+			
+				 <div class="mySlides">
+					<img src="sources/img/img9.jpg">
+				 </div>
+			
+				 <div class="mySlides">
+					<img src="sources/img/img10.jpg">
+				 </div>
+				 
+				 <div class="mySlides">
+					<img src="sources/img/img11.jpg">
+				 </div>
+		
+				 <div class="mySlides">
+					<img src="sources/img/img12.jpeg">
+				 </div>
+			
+				 <div class="mySlides">
+					<img src="sources/img/img13.jpeg">
+				 </div>
+			
+				 <div class="mySlides">
+					<img src="sources/img/img14.jpeg">
+				 </div>
+				 
+				 <div class="mySlides">
+					<img src="sources/img/img15.jpeg">
+				 </div>
+		
+				 <div class="mySlides">
+					<img src="sources/img/img16.jpeg">
+				 </div>
+			
+				 <div class="mySlides">
+					<img src="sources/img/img17.jpeg">
+				 </div>
+			
+				 <div class="mySlides">
+					<img src="sources/img/img18.jpeg">
+				 </div>
+				 
+				 <div class="mySlides">
+					<img src="sources/img/img19.jpeg">
+				 </div>
+				 
+				 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+				 <div class="caption-container">
+					<p id="caption"></p>
+				 </div>
+			
+				 <div class="column-main">
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img4.jpg" style="width:100%" onclick="currentSlide(1)" alt="1 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img5.jpg" style="width:100%" onclick="currentSlide(2)" alt="2 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img6.jpg" style="width:100%" onclick="currentSlide(3)" alt="3 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img7.jpg" style="width:100%" onclick="currentSlide(4)" alt="4 / 16">
+					 </div>
+		
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img8.jpg" style="width:100%" onclick="currentSlide(5)" alt="5 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img9.jpg" style="width:100%" onclick="currentSlide(6)" alt="6 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img10.jpg" style="width:100%" onclick="currentSlide(7)" alt="7 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img11.jpg" style="width:100%" onclick="currentSlide(8)" alt="8 / 16">
+					 </div>
+		
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img12.jpeg" style="width:100%" onclick="currentSlide(9)" alt="9 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img13.jpeg" style="width:100%" onclick="currentSlide(10)" alt="10 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img14.jpeg" style="width:100%" onclick="currentSlide(11)" alt="11 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img15.jpeg" style="width:100%" onclick="currentSlide(12)" alt="12 / 16">
+					 </div>
+		
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img16.jpeg" style="width:100%" onclick="currentSlide(13)" alt="13 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img17.jpeg" style="width:100%" onclick="currentSlide(14)" alt="14 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img18.jpeg" style="width:100%" onclick="currentSlide(15)" alt="15 / 16">
+					 </div>
+					 <div class="column">
+						<img class="demo cursor" src="sources/img/img19.jpeg" style="width:100%" onclick="currentSlide(16)" alt="16 / 16">
+					 </div>
+				 </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer border rounded-3">
+	<div class="section-footer">
+		<div class="footerInner">
+		<div class="footerLogo">
+				<a href="index.html"><img src="sources/img/logo.png" alt="logo" /></a>
+			  </div>
+			  <div class="footerInnerBotton">
+				<p>© 2023 Бутик-отель МоеЛето</p>
+			 </div>
+		</div>
+			<ul class="footerList">
+				<p class="contacts">C нами можно святься:</p>
+				<li>
+					<a href="#">WatsApp</a>
+				</li>
+				<li>
+					<a href="#">Telegram</a>
+				</li>
+				<li>
+					<a href="#">Viber</a>
+				</li>
+				<li>
+					<a href="#">Instagram</a>
+				</li>
+			</ul>
+			<ul class="footerList">
+				<p class="contacts">Дополнительно:</p>
+				<li>
+					<a href="#">Адрес: г. Ейск, ул. Николаевская 11.</a>
+				</li>
+				<li>
+					<a href="#">Телефон: 8 (812) 123-45-67</a>
+				</li>
+				<li>
+					<a href="#">Отдел продаж: 10:00 - 20:00</a>
+				</li>
+				<li>
+					<a href="#">E-mail: <span class="footerEmail">vip@housevip.ru</span></a>
+				</li>
+			</ul>
+		</div>
+	</div>	
+</div>
+	<script src="sources/js/gallery.js"></script>
+</body>
+</html>

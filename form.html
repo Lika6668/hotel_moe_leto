@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="sources/styles/form.css" />
+	<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+	crossorigin="anonymous"
+ />
+</head>
+<body>
+	<!-- Header -->
+	<header class="border">
+		<div class="headerInner">
+		  <div class="logo">
+			<img src="sources/img/logo.png" alt="logo" />
+		  </div>
+		  <nav>
+			 <ul class="headerMenu">
+				<li><a href="index.html">Главная</a></li>
+			 </ul>
+		  </nav>
+		  <div class="bookBtn">
+			<a href="#"><button type="button" class="btn btn-secondary btn-lg"> Забронировать </button></a>
+		  </div>
+		</div>
+		</header>
+
+	<div class="section-form">
+		<div class="container border rounded-3">
+			<div class="form">
+				<p class="text-form">Забронировать номер в Краснодарском крае. Бутик-отель МоеЛето.</p>
+				<form class="row g-3">
+					<div class="col-md-6">
+					  <label for="inputEmail4" class="form-label">Заезд</label>
+					  <input type="date" class="form-control" id="inputEmail4">
+					</div>
+					<div class="col-md-6">
+					  <label for="inputPassword4" class="form-label">Выезд</label>
+					  <input type="date" class="form-control" id="inputPassword4">
+					</div>
+					<div class="col-md-6">
+						<label for="inputPassword4" class="form-label">Количество гостей (взрослых)</label>
+						<select class="form-select" aria-label="Пример выбора по умолчанию">
+							<option selected value="1">Один</option>
+							<option value="2">Два</option>
+							<option value="3">Три</option>
+							<option value="4">Четыре</option>
+							<option value="5">Пять</option>
+							<option value="6">Шесть</option>
+							<option value="7">Семь</option>
+							<option value="8">Восемь</option>
+						 </select>
+					</div>
+					<div class="col-md-6">
+						<label for="inputPassword4" class="form-label">Количество гостей (детей до 9лет)</label>
+						<select class="form-select" aria-label="Пример выбора по умолчанию">
+							<option selected value="1">Один</option>
+							<option value="2">Два</option>
+							<option value="3">Три</option>
+							<option value="4">Четыре</option>
+							<option value="5">Пять</option>
+						 </select>
+					</div>
+					<div class="col-12">
+					  <div class="form-check">
+						 <input class="form-check-input" type="checkbox" id="gridCheck">
+						 <label class="form-check-label" for="gridCheck">
+							У меня промокод
+						 </label>
+					  </div>
+					</div>
+					<div class="col-12 d-grid gap-2">
+					  <button type="submit" class="btn btn-primary">Найти</button>
+					</div>
+				 </form>
+			</div>
+	</div>
+	<footer class="border rounded-3">
+		<div class="section-footer">
+			<div class="footerInner">
+			<div class="footerLogo">
+					<a href="index.html"><img src="sources/img/logo.png" alt="logo" /></a>
+				  </div>
+				  <div class="footerInnerBotton">
+					<p>© 2023 Бутик-отель МоеЛето</p>
+				 </div>
+			</div>
+				<ul class="footerList">
+					<p class="contacts">C нами можно святься:</p>
+					<li>
+						<a href="#">WatsApp</a>
+					</li>
+					<li>
+						<a href="#">Telegram</a>
+					</li>
+					<li>
+						<a href="#">Viber</a>
+					</li>
+					<li>
+						<a href="#">Instagram</a>
+					</li>
+				</ul>
+				<ul class="footerList">
+					<p class="contacts">Дополнительно:</p>
+					<li>
+						<a href="#">Адрес:  г. Ейск, ул. Николаевская 11.</a>
+					</li>
+					<li>
+						<a href="#">Телефон: 8 (812) 123-45-67</a>
+					</li>
+					<li>
+						<a href="#">Отдел продаж: 10:00 - 20:00</a>
+					</li>
+					<li>
+						<a href="#">E-mail: <span class="footerEmail">vip@housevip.ru</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</footer>
+</body>
+</html>
